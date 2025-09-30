@@ -140,43 +140,6 @@ function App() {
           </section>
         ))}
 
-        {/* Instructions for adding more TPs */}
-        <div className="bg-gradient-to-r from-indigo-50 to-blue-50 border border-indigo-200 rounded-xl p-8 mt-12">
-          <div className="text-center mb-6">
-            <h3 className="text-2xl font-bold text-indigo-900 mb-3">
-              📚 Extension pour TP2/TP3
-            </h3>
-            <div className="w-16 h-1 bg-indigo-400 mx-auto rounded-full"></div>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h4 className="font-semibold text-indigo-800 mb-3 flex items-center">
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                </svg>
-                Ajouter de nouveaux exercices
-              </h4>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                Pour ajouter TP2/TP3, dupliquez une entrée dans le tableau <code className="bg-gray-100 px-2 py-1 rounded text-xs font-mono">exercises</code> 
-                et remplacez le titre, la description, l'énoncé, le travail demandé et l\'URL iframe par vos nouvelles visualisations Python Tutor.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h4 className="font-semibold text-indigo-800 mb-3 flex items-center">
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-                Structure modulaire
-              </h4>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                Chaque exercice est défini par un objet avec titre, description, énoncé, travail demandé et URL iframe. 
-                Cette structure permet une extension facile et maintient la cohérence visuelle.
-              </p>
-            </div>
-          </div>
-        </div>
 
         {/* Footer with instructor info */}
         <footer className="bg-white border-t border-gray-200 rounded-xl p-6 mt-8">

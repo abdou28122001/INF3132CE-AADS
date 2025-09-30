@@ -159,7 +159,7 @@ function App() {
               </h4>
               <p className="text-gray-700 text-sm leading-relaxed">
                 Pour ajouter TP2/TP3, dupliquez une entrée dans le tableau <code className="bg-gray-100 px-2 py-1 rounded text-xs font-mono">exercises</code> 
-                et remplacez le titre, la description, l'énoncé, le travail demandé et l'URL iframe par vos nouvelles visualisations Python Tutor.
+                et remplacez le titre, la description, l'énoncé, le travail demandé et l\'URL iframe par vos nouvelles visualisations Python Tutor.
               </p>
             </div>
             
